@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Code Wizard's Apprentice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game">
+    <h1>The Code Wizard’s Apprentice</h1>
+    <p id="story">
+      You arrive at a cavern with no visible path forward.  
+      Glowing runes on the wall whisper: <em>"Only the sacred spell shall summon the Word Bridge."</em>
+      <br>Hint: Try using <code>print("hello world")</code>.
+    </p>
+
+    <div id="animation-area"></div>
+
+    <textarea id="codeInput" placeholder="Type your code here..."></textarea>
+    <button onclick="runCode()">Cast Spell</button>
+    <p id="feedback"></p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
