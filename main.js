@@ -25,6 +25,6 @@ function runCode() {
 
     feedback.textContent = "The Word Bridge forms! You may now cross.";
   } else {
-    feedback.textContent = 'Your spell fizzles. (Hint: try print("hello world"))';
+    feedback.textContent = 'A bridge starts to form but quickly crumbles. (Hint: try print("hello world"))';
   }
 }
